@@ -21,3 +21,8 @@ Pablo es apasionado en sus labores, junto con su responsabilidad y las ganas de 
 Santiago, es una persona responsable y disciplinada, estás habilidades ayudan a potenciar las habilidades de sus compañeros y las de el en pro del equipo, además tiene la ventaja de tener un pensamiento crítico y detallado lo cual le ayuda a identificar problemas y soluciones.
 
 ### Responsabilidades
+
+
+
+### PDF ENTREGA1 
+[ENTREGA1.pdf](https://github.com/user-attachments/files/19968616/ENTREGA1.pdf)
