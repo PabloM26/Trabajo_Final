@@ -25,4 +25,4 @@ Primero nos encontramos con unas responsabilidades grupales: El planteamiento de
 En cuanto a las responsabilidades individuales, Juan Pablo se encargará de el módulo de registro de usuarios y el módulo de la administración y cierre de día más que todo en la lógica. Santiago, hará el módulo de registro de ingreso del vehículo y la parte de datos de administración y cierre de día. Finalmente, David se encargará de generar el código para el retiro de un vehículo y el módulo que va a calcular el cobro de la tarifa por la estancia en el parqueadero. 
 
 ### PDF ENTREGA1 
-[ENTREGA1.pdf](https://github.com/user-attachments/files/19968616/ENTREGA1.pdf)
+[ENTREGA1.pdf](https://github.com/user-attachments/files/19969166/ENTREGA1.pdf)
