@@ -75,7 +75,7 @@ Definir este apartado al inicio es un poco complejo ya que a medida que vayamos 
 ➢ Exportación de datos: Es de fundamental importancia esta librería ya que nos permitirá exportar nuestro reporte de datos en un archivo CSV.
 
 ### Visual
-En cuanto a lo visual, tenemos que proyectar una interfaz fácil e intuitiva y aunque esta imagen se vea como una aplicación de escritorio, es importante aclarar que esta primera etapa del proyecto la vamos a elaborar en google colab, donde las interacciones se hacen básicamente en entradas y salidas. Por tanto este diseño que presentamos se podría implementar a futuro cuando el proyecto evolucione a una aplicación más completa o a una página web.
+A corde a lo visual, tenemos que proyectar una interfaz fácil e intuitiva y aunque esta imagen se vea como una aplicación de escritorio, es importante aclarar que esta primera etapa del proyecto la vamos a elaborar en google colab, donde las interacciones se hacen básicamente en entradas y salidas. Por tanto este diseño que presentamos se podría implementar a futuro cuando el proyecto evolucione a una aplicación más completa o a una página web.
 
 
 ### Algoritmos
