@@ -76,7 +76,7 @@ Definir este apartado al inicio es un poco complejo ya que a medida que vayamos 
 
 ### Visual
 A corde a lo visual, tenemos que proyectar una interfaz fácil e intuitiva y aunque esta imagen se vea como una aplicación de escritorio, es importante aclarar que esta primera etapa del proyecto la vamos a elaborar en google colab, donde las interacciones se hacen básicamente en entradas y salidas. Por tanto este diseño que presentamos se podría implementar a futuro cuando el proyecto evolucione a una aplicación más completa o a una página web.
-
+![WhatsApp Image 2025-07-07 at 5 30 44 PM](https://github.com/user-attachments/assets/228d4415-cce2-4054-8666-75dc35f2dd31)
 
 ### Algoritmos
 #### 1.Registrar usuario
