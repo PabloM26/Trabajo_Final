@@ -30,18 +30,20 @@ En cuanto a las responsabilidades individuales, Juan Pablo se encargará del mó
 El presente proyecto tiene como objetivo encontrar una solución de software que permita la aplicación de conceptos básicos de algoritmos y programación mediante la plataforma Google Colab. Esta herramienta nos facilita el trabajo en equipo ya que al ser una plataforma interactiva, podemos trabajar simultáneamente. Con este proyecto buscamos gestionar el registro de usuarios, la entrada y salida de sus vehículos, lo que implica desarrollar un sistema que almacene datos como la información personal de los usuarios, la placa de los vehículos, la hora de ingreso y salida, y el cálculo de tiempo de permanencia que dará el valor a cobrar a dicho usuario.
 
 ### Especificación de requisitos
-➢ Requisitos funcionales son los que definen las acciones que vamos a utilizar de manera específica, los comportamientos y operaciones que deseamos que tenga nuestro programa ○ Registro de usuario: Vamos a solicitar a cada persona que nos de los siguientes datos: nombre y apellido, número de documento y la placa. Lo anterior debe incluir las restricciones previamente establecidas para estos parámetros. 
+➢ Requisitos funcionales son los que definen las acciones que vamos a utilizar de manera específica, los comportamientos y operaciones que deseamos que tenga nuestro programa.
+
+ ○ Registro de usuario: Vamos a solicitar a cada persona que nos de los siguientes datos: nombre y apellido, número de documento y la placa. Lo anterior debe incluir las restricciones    previamente establecidas para estos parámetros. 
  
  ○ Registro de vehículo: Para el ingreso del vehículo tenemos que verificar que los datos estén de acuerdo a lo que registramos antes. Posteriormente, haremos que nuestro programa 
  verifique si hay espacios de parqueo libres y mostrar dónde se encuentra este espacio. Luego de haber validado lo anterior, mostraremos una factura que notifique el ingreso 
  satisfactorio al sistema.
 
  ○ Retiro de vehículos y gestión de tarifas: Para que una persona pueda retirar su vehículo, el software se encargará de calcular el valor de la estancia respecto al tiempo de uso, esto 
- es: Se multiplica el número de horas enteras parqueadas por el valor de la hora que corresponde a 7000 pesos. El número de cuartos de hora se multiplicará por 1500. El total a pagar es 
+ es: se multiplica el número de horas enteras parqueadas por el valor de la hora que corresponde a 7000 pesos. El número de cuartos de hora se multiplicará por 1500. El total a pagar es 
  la suma del cobro por hora y el cobro por cuartos de hora. Si el total calculado es menor que el valor de una hora completa, entonces el pago mínimo será el valor de una hora completa 
  (7000).
  
- ○ Administración: Se deben crear ciertos usuarios especiales que tendrán acceso a los siguientes datos de nuestro programa: Total de vehículos registrados, total de vehículos retirados, 
+ ○ Administración: Se deben crear ciertos usuarios especiales que tendrán acceso a los siguientes datos de nuestro programa: total de vehículos registrados, total de vehículos retirados, 
  total de vehículos sin retirar, el pago total de los vehículos retirados, el tiempo promedio de estancia de un vehículo en el parqueadero, la lista de usuarios, vehículo con mayor y 
  menor tiempo de parqueo y la ocupación de celdas de parqueo.
  
@@ -76,6 +78,7 @@ Definir este apartado al inicio es un poco complejo ya que a medida que vayamos 
 
 ### Visual
 A corde a lo visual, tenemos que proyectar una interfaz fácil e intuitiva y aunque esta imagen se vea como una aplicación de escritorio, es importante aclarar que esta primera etapa del proyecto la vamos a elaborar en google colab, donde las interacciones se hacen básicamente en entradas y salidas. Por tanto este diseño que presentamos se podría implementar a futuro cuando el proyecto evolucione a una aplicación más completa o a una página web.
+
 ![WhatsApp Image 2025-07-07 at 5 30 44 PM](https://github.com/user-attachments/assets/228d4415-cce2-4054-8666-75dc35f2dd31)
 
 ### Algoritmos
@@ -184,4 +187,4 @@ restricciones que hay para el registro de usuario, como la longitud de los nombr
 Para el almacenamiento de la información principal se dará uso de diccionarios, listas y tuplas como estructuras de datos. Los diccionarios permitirán almacenar organizadamente la información de los usuarios y de los vehículos. Las tuplas tendrán los datos fijos que no van a tener que cambiarse como las tarifas. Finalmente, las listas llevarán registro de las celdas de parqueadero que se encuentren disponibles u ocupadas y de los vehículos que han entrado.
 
 ### Presentación de resultados
-Para este módulo, primero mostramos un usuario predefinido en el sistema, pero esto no es muy efectivo, entonces mediante el desarrollo de nuestro software vamos a mejorar este aspecto: Permitiremos registrar administradores nuevos, esto sin perder la idea original de usar un usuario de administración global con una contraseña predefinida para que no cualquiera se pueda convertir en administrador. Posteriormente desplegamos el menú que mostrará a detalle en un reporte ordenado todos los datos importantes de la organización del parqueadero. Para la visualización incluimos la opción de ver en pantalla o de generar el archivo CSV dependiendo de las necesidades del usuario.
+Para este módulo, primero mostramos un usuario predefinido en el sistema, pero esto no es muy efectivo, entonces mediante el desarrollo de nuestro software vamos a mejorar este aspecto: permitiremos registrar administradores nuevos, esto sin perder la idea original de usar un usuario de administración global con una contraseña predefinida para que no cualquiera se pueda convertir en administrador. Posteriormente desplegamos el menú que mostrará a detalle en un reporte ordenado todos los datos importantes de la organización del parqueadero. Para la visualización incluimos la opción de ver en pantalla o de generar el archivo CSV dependiendo de las necesidades del usuario.
